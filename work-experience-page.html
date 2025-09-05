@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Mielnik Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo">WORK EXPERIENCE | Daniel Mielnik</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/" class="navbar_links"> Home </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/education-page.html" class="navbar_links"> Education </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/work-experience-page.html" class="navbar_links"> Work Experience </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/projects-page.html" class="navbar_links"> Projects </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/" class="button"> Contact Me </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <div class="work-experience">
+        <!-- <h1>Highlighted Projects</h1> -->
+        <div class="experience_container">
+            <a class="experience_card" href="#MHICA">
+                <h2>Industrial Engineering Intern</h2>
+                <p>MHICA</p>
+                <button>Learn More</button>
+            </a>
+            <a class="experience_card" href="#RBCSD">
+                <h2>Software Development Intern</h2>
+                <p>RBC</p>
+                <button>Learn More</button>
+            </a>
+            <a class="experience_card" href="#RBCTSA">
+                <h2>Technical Systems Analyst Intern</h2>
+                <p>RBC</p>
+                <button>Learn More</button>
+            </a>
+
+             <!-- Popup Windows -->
+            <div id="MHICA" class="overlay">
+                <div class="popup">
+                    <h1>Industrial Engineering Intern</h1>
+                    <a class="close" href="#work-experience">&times;</a>
+                    <div class="content">
+                        <h2>
+                            May 2024 - Aug 2024
+                        </h2>
+                        <div class="img-container">
+                            <img src="images/MHICAproduction.jpg" alt="pic" id="work_img">
+                        </div>
+                        <p>
+                            Reworked and improved 10 shop aids in SOLIDWORKS with measurements taken by hand and laser scanning, which 
+                            were then 3D printed and used to decrease assembly line operator errors caused by the former aids.
+                        </p>
+                        <p>
+                            Drove the initiative to independently develop a script that scans for errors in MES input, replacing a flow that required 
+                            individuals to manually inspect 4,000+ entries per aircraft, and ensuring reliable incident diagnosis data.
+                        </p>
+                        <p>
+                            Automated the generation and distribution of daily project status reports using MS PowerAutomate and PowerBI,
+                            then advised team leads how to automate further tasks, ultimately saving the team over 15 hours per week.
+                        </p>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="RBCSD" class="overlay">
+                <div class="popup">
+                    <h1>Software Development Intern</h1>
+                    <a class="close" href="#work-experience">&times;</a>
+                    <div class="content">
+                        <h2>
+                            May 2023 - Aug 2023
+                        </h2>
+                        <div class="img-container">
+                            <img src="images/Tech@RBCVideov2-1729018143750.png.webp" alt="pic" id="work_img">
+                        </div>
+                        <p>
+                            Developed a website leveraging IBM WatsonX Generative AI to summarize customer claims and estimate insurance
+                            payouts, resulting in a 50% increase in number of claims processed per day and improved customer satisfaction.
+                        </p>
+                        <p>
+                            Migrated daily customer report generation to Microsoft Report Builder (SSRS) using SQL databases/queries to
+                            summarize customer banking information and add search by date functionality to improve report analysis workflow.
+                        </p>
+                    </div>    
+                </div>
+            </div>
+
+            <div id="RBCTSA" class="overlay">
+                <div class="popup">
+                    <h1>Technical Systems Analyst Intern</h1>
+                    <a class="close" href="#work-experience">&times;</a>
+                    <div class="content">
+                        <h2>
+                            May 2022 - Aug 2022
+                        </h2>
+                        <div class="img-container">
+                            <img src="images/rbc-feat-image.jpg.avif" alt="pic" id="work_img">
+                        </div>
+                        <p>
+                            Used RedHat Ansible to automate data cleanup for quarterly banking statements, reducing the lag time from
+                            statement availability to clients by up to 3 weeks per quarter.
+                        </p>
+                        <p>
+                            Automated process monitoring systems using Bash on Unix to alert support teams when critical services are down,
+                            replacing dependence on customer reports with the ability to automatically detect system outages within 5 minutes.
+                        </p>
+                    </div>    
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link--wrapper">
+                <div class="footer_link--items">
+                    <h2>Contact Me</h2>
+                    <a href="/">dm.danielmielnik@gmail.com</a>
+                    <a href="/">416-779-6410</a>
+                    <a href="/">Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media--wrap">
+                <div class="social_icons">
+                    <a href="/" class="social_icon--link" target="_blank">
+                        <i class="bi bi-amd"></i>
+                    </a>
+                    <a href="/" class="social_icon--link" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-mielnik-06248b22b/" class="social_icon--link" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <script src="app.js"> </script>
+</body>
+</html>
