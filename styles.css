@@ -385,18 +385,18 @@
     height: 525px;
     width: 400px;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/plane-rotate.gif');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('images/plane-rotate.gif');
     background-size: cover;
     position: relative;
     color: #fff;
 }
 
 .projects_container a:nth-child(2) .projects_card {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/rocket-launch.mov');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('images/rocket-launch.mov');
 }
 
 .projects_container a:nth-child(3) .projects_card {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/glider.MOV');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('images/glider.MOV');
 }
 
 .projects_card h2 {
