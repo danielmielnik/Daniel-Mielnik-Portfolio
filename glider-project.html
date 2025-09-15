@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Mielnik Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Doto:wght,ROND@100..900,100&family=Jura:wght@300..700&family=Poiret+One&family=Poppins&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="index.html" id="navbar_logo">DANIEL MIELNIK</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="index.html" class="navbar_links"> Home </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="education-page.html" class="navbar_links"> Education </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="work-experience-page.html" class="navbar_links"> Work Experience </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="projects-page.html" class="navbar_links"> Projects </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#footer_container" class="button"> Contact Me </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="title_container" style="background-image: url(images/image45.png);"">
+        <h1 style="background-color: #f95050; text-shadow: 0 0 1px #f56058, 0 0 2px #e98b86, 0 0 3px #e98686;">
+            Glider Project
+        </h1>
+        <h2 style="background-color: #f95050; text-shadow: 0 0 1px #ffab24, 0 0 2px #e9ac86, 0 0 3px #e9a786;">
+            Dec 2024 | School Project
+        </h2>
+    </div>
+
+    <!-- Project Purpose -->
+     <div class="proj">
+        <div class="proj_container">
+            <div class="proj_content">
+                <h1>Project Brief</h1>
+                <p>As part of the AER 507: Materials and Manufacturing course, my team designed and built a hand-launched glider using a 
+                    provided composite wing and custom-designed fuselage, tail, and payload system. The project challenged us to balance 
+                    strict design constraints — including weight limits under 200 g, tail sizing under 30% of wing area, and fuselage 
+                    safety requirements — while maximizing flight performance in a gymnasium competition. Our final glider, Quetzalcoatlus, 
+                    featured a lightweight fuselage with an integrated payload compartment, a conventional tail with lightning-hole cutouts, 
+                    and a carefully manufactured carbon fiber/fiberglass wing. In competition, the glider achieved a maximum flight distance 
+                    of 12.8 meters, demonstrating stable flight but also revealing areas for structural improvement.
+                </p>
+            </div>
+            <div class="main_img-container">
+                <img src="images/image42.jpg" alt="pic" id="main_img" style="border-radius: 1000px; margin-left: 3rem; margin-top: 5rem;">
+            </div>
+        </div>
+     </div>
+
+    <!-- Process -->
+    <div class="proj">
+        <div class="proj_container">
+            <div class="proj_content">
+                <h1>Process</h1>
+                <h2>
+                    Glider Design
+                </h2>
+                <p>
+                    The glider design process began with evaluating different tail and fuselage configurations against the competition’s 
+                    weight and size constraints. Using a pairwise comparison chart, our team compared stability, efficiency, durability, 
+                    and manufacturability across options such as a T-tail and conventional tail. While the T-tail provided some aerodynamic
+                    benefits, it was heavier and more complex, so we ultimately 
+                </p>
+            </div>
+            <div class="proj_content" style="margin-top: 7.5rem;">
+                <p>
+                    chose a conventional tail to reduce drag and simplify 
+                    construction. We also incorporated lightning holes into the tail surfaces to save weight without sacrificing stiffness. 
+                    The fuselage was designed with a rectangular cross-section for ease of fabrication and to provide space for the payload 
+                    compartment, which was positioned to maintain proper center of gravity for stable flight.
+                </p>
+            </div>
+        </div>
+        <div class="image-reel" id="reel0" style="margin-top: 0rem;">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+                <img src="images/image32.png" id="side-img" style="height: 50%;">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+                <img src="images/image36.png" id="side-img" style="height: 50%;">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+                <img src="images/image40.png" id="side-img" style="height: 50%;">
+            </div>
+
+            <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+                <img src="images/image39.png" id="side-img" style="height: 50%;">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <button class="prev" onclick="plusSlides(-1, 'reel0')">&#10094;</button>
+            <button class="next" onclick="plusSlides(1, 'reel0')">&#10095;</button>
+
+            <!-- Image text -->
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+
+        </div>
+         <div class="proj_container">
+            <div class="proj_content">
+                <h2>
+                    Wing Design Analysis
+                </h2>
+                <p>
+                    Since the composite wing was a provided component, our focus was on ensuring its aerodynamic efficiency and 
+                    structural performance fit the glider’s design. We conducted a wing-loading analysis to ensure the glider 
+                    could achieve stable flight within the gymnasium environment, balancing lift requirements with the strict 200 
+                    g weight limit. Using theoretical lift and drag equations, along with assumptions for indoor airspeed, we 
+                    validated that the carbon fiber/fiberglass layup could handle flight loads with a safety margin. To integrate 
+                    the wing with the fuselage, we designed a custom 3D-printed wing connector, which not only reduced assembly 
+                    complexity but also allowed for quick adjustments to angle of attack during testing.
+
+                </p>
+            </div>
+
+            <div class="image-reel" id="reel3">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                <div class="numbertext" style="left: 0%;">1 / 4</div>
+                    <img src="images/image44.png" id="slide-img" style="width: 100%;">
+                </div>
+            
+                <div class="mySlides">
+                <div class="numbertext" style="left: 0%;">2 / 4</div>
+                    <img src="images/image33.png" id="slide-img" style="width: 100%;">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <button class="prev" style="left: 0%;" onclick="plusSlides(-1, 'reel3')">&#10094;</button>
+                <button class="next" style="right: 0%;" onclick="plusSlides(1, 'reel3')">&#10095;</button>
+            
+                <!-- Image text -->
+                <div class="caption-container">
+                <p id="caption"></p>
+                </div>
+
+            </div>
+        </div>
+     </div>
+    
+    <!-- Container for the image gallery -->
+    
+
+    <div class="proj">
+        <div class="proj_container">
+            <div class="proj_content" style="margin-top: 2rem;">
+                <h2>
+                    Manufacturing Design
+                </h2>
+                <p>
+                    The manufacturing process combined lightweight materials and practical fabrication methods. The fuselage was 
+                    constructed from laser-cut balsa sheets reinforced with foam, chosen for their balance of strength and low weight. 
+                    The tail components were cut from balsa wood and assembled with epoxy, with lightning holes carefully placed to 
+                    reduce unnecessary mass. For the wing, we practiced composite layup techniques with carbon fiber and fiberglass, 
+                    creating a strong yet lightweight airfoil. During assembly, we relied on adhesives to secure joints while minimizing 
+                    added weight, and used 3D-printed connectors for both the wing and tail to ensure proper alignment. These steps 
+                    emphasized precision and consistency, as small misalignments could drastically affect stability and glide performance.
+                </p>
+            </div>
+            <div class="proj_content">
+                <img src="images/IMG_9691.JPG" id="top_img">
+            </div>
+            <div class="proj_content">
+                <img src="images/IMG_9715.JPG" id="top_img">
+            </div>
+            <div class="proj_content" style="margin-left: 25px; margin-right: -25px;">
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+     </div>
+
+    <!-- Project Purpose -->
+    <div class="proj">
+        <div class="proj_container">
+            <div class="proj_content">
+                <h1>What I Learned</h1>
+                <p>
+                    This project reinforced how important it is to combine theoretical analysis with hands-on craftsmanship. On the 
+                    design side, I learned how to apply aerodynamic principles, material selection trade-offs, and stress analysis to 
+                    a small-scale but real flying vehicle. During manufacturing, I developed skills in composite layup, laser cutting, 
+                    and assembly — and experienced firsthand how tolerances, material fragility, and adhesive choices affect performance. 
+                    On competition day, I learned the value of iteration and resilience: our glider flew smoothly but suffered structural 
+                    cracks on landing, showing us where we could reinforce the design without compromising weight. Working in a four-person 
+                    team also reminded me of the importance of dividing tasks clearly, communicating progress, and trusting each other’s 
+                    technical strengths. Overall, this project strengthened both my technical and teamwork skills while giving me direct 
+                    experience with the challenges of design-to-build aerospace projects.
+                </p>
+            </div>
+            <div class="main_img-container">
+                <img src="images/IMG_9779.JPG" alt="pic" id="main_img" style="margin-top: 4rem;">
+            </div>
+        </div>
+     </div>
+
+
+    <!-- Footer Section -->
+    <div class="footer_container" id="footer_container">
+        <div class="footer_links">
+            <div class="footer_link--wrapper">
+                <div class="footer_link--items">
+                    <h2>Contact Me</h2>
+                    <a href="/">dm.danielmielnik@gmail.com</a>
+                    <a href="/">416-779-6410</a>
+                    <a href="Daniel Mielnik Resume Fall '25.pdf">Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media--wrap">
+                <div class="social_icons">
+                    <a href="https://github.com/danielmielnik" class="social_icon--link" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-mielnik-06248b22b/" class="social_icon--link" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    <script src="app.js"> </script>
+</body>
+</html>

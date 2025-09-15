@@ -15,7 +15,28 @@
     font-variation-settings: "ROND" 100;
 }
 
-  
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; /*linear-gradient(to right, #d2f950 0%, #f2f9c2 50%, #d2f950 100%);*/
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 20px #d2f950; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #e3fe88 0%, #fbffe0 50%, #e3fe88 100%);
+}
 
 .navbar {
     background: #131313;
@@ -326,7 +347,7 @@
     text-decoration: none;
 }
 
-.main_btn:after {
+/*.main_btn:after {
     position: absolute;
     content: '';
     top: 0;
@@ -336,10 +357,17 @@
     background: linear-gradient(to top, #e3702d 0%, #fd99fa 100%);
     transition: all 0.35s;
     border-radius: 10px;
-}
+}*/
 
 .main_btn:hover {
-    color: #fff;  
+    background-color: #ffffff90;
+    color: #d2f950;
+    text-shadow:
+    0 0 1px #f6ffb3,
+    0 0 2px #d2e986,
+    0 0 3px #d2e986;
+    animation: glow 1s ease-in-out infinite alternate;
+    transition: all 0.3s ease;  
 }
 
 .main_btn:hover:after {
